@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sc_eureka_consume2" />
+        <module name="sc_eureka_consumer" />
+        <module name="sc_eureka_feign_hystrix" />
+        <module name="sc_eureka_provider" />
+        <module name="sc_eureka_ribbon_hystrix" />
+        <module name="sc_eureka_server" />
+        <module name="sc_eureka_server2" />
+        <module name="sc_eureka_zuul" />
+        <module name="sc_pojo" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="sc_eureka_consume2" options="-parameters" />
+      <module name="sc_eureka_consumer" options="-parameters" />
+      <module name="sc_eureka_feign_hystrix" options="-parameters" />
+      <module name="sc_eureka_provider" options="-parameters" />
+      <module name="sc_eureka_ribbon_hystrix" options="-parameters" />
+      <module name="sc_eureka_server" options="-parameters" />
+      <module name="sc_eureka_server2" options="-parameters" />
+      <module name="sc_eureka_zuul" options="-parameters" />
+    </option>
+  </component>
+</project>

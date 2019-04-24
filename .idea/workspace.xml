@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aa8bb889-cc8f-4e6c-aa0b-5fe3d78217f0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_consume2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_consume2/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_consume2/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_consume2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_consume2/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_consume2/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_consume2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_consume2/src/main/java/com/xa/sc_eureka_consume2/ScEurekaConsume2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_consume2/src/main/java/com/xa/sc_eureka_consume2/config/RibbonConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_consume2/src/main/java/com/xa/sc_eureka_consume2/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_consume2/src/main/java/com/xa/sc_eureka_consume2/service/RemoteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_consume2/src/main/java/com/xa/sc_eureka_consume2/service/impl/RemoteServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_consume2/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_consume2/src/test/java/com/xa/sc_eureka_consume2/ScEurekaConsume2ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_consumer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_consumer/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_consumer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_consumer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_consumer/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_consumer/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_consumer/src/main/java/com/xa/sc_eureka_consumer/ScEurekaConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_consumer/src/main/java/com/xa/sc_eureka_consumer/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_consumer/src/main/java/com/xa/sc_eureka_consumer/service/RemoteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_consumer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_consumer/src/test/java/com/xa/sc_eureka_consumer/ScEurekaConsumerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_feign_hystrix/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_feign_hystrix/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_feign_hystrix/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_feign_hystrix/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_feign_hystrix/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_feign_hystrix/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_feign_hystrix/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_feign_hystrix/src/main/java/com/xa/sc_eureka_feign_hystrix/ScEurekaFeignHystrixApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_feign_hystrix/src/main/java/com/xa/sc_eureka_feign_hystrix/controller/HystrixController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_feign_hystrix/src/main/java/com/xa/sc_eureka_feign_hystrix/service/HystrixRemoteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_feign_hystrix/src/main/java/com/xa/sc_eureka_feign_hystrix/service/impl/HystrixRemoteServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_feign_hystrix/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_feign_hystrix/src/test/java/com/xa/sc_eureka_feign_hystrix/ScEurekaFeignHystrixApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_provider/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_provider/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_provider/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_provider/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_provider/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_provider/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_provider/src/main/java/com/xa/sc_eureka_provider/ScEurekaProviderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_provider/src/main/java/com/xa/sc_eureka_provider/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_provider/src/main/java/com/xa/sc_eureka_provider/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_provider/src/main/java/com/xa/sc_eureka_provider/service/UserInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_provider/src/main/java/com/xa/sc_eureka_provider/service/impl/UserInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_provider/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_provider/src/main/resources/mapper/UserInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_provider/src/test/java/com/xa/sc_eureka_provider/ScEurekaProviderApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_ribbon_hystrix/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_ribbon_hystrix/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_ribbon_hystrix/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_ribbon_hystrix/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_ribbon_hystrix/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_ribbon_hystrix/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_ribbon_hystrix/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_ribbon_hystrix/src/main/java/com/xa/sc_eureka_ribbon_hystrix/ScEurekaRibbonHystrixApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_ribbon_hystrix/src/main/java/com/xa/sc_eureka_ribbon_hystrix/config/RibbonConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_ribbon_hystrix/src/main/java/com/xa/sc_eureka_ribbon_hystrix/controller/RibbonHystrixController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_ribbon_hystrix/src/main/java/com/xa/sc_eureka_ribbon_hystrix/service/RibbonHystrixService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_ribbon_hystrix/src/main/java/com/xa/sc_eureka_ribbon_hystrix/service/impl/RibbonHystrixServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_ribbon_hystrix/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_ribbon_hystrix/src/test/java/com/xa/sc_eureka_ribbon_hystrix/ScEurekaRibbonHystrixApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_server/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_server/src/main/java/com/xa/sc_eureka_server/ScEurekaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_server/src/test/java/com/xa/sc_eureka_server/ScEurekaServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_server2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_server2/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_server2/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_server2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_server2/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_server2/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_server2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_server2/src/main/java/com/xa/sc_eureka_server2/ScEurekaServer2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_server2/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_server2/src/test/java/com/xa/sc_eureka_server2/ScEurekaServer2ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_zuul/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_zuul/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_zuul/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_zuul/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_zuul/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_zuul/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_zuul/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_zuul/src/main/java/com/xa/sc_eureka_zuul/ScEurekaZuulApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_zuul/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_eureka_zuul/src/test/java/com/xa/sc_eureka_zuul/ScEurekaZuulApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_pojo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_pojo/src/main/java/com/xa/pojo/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud.iml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/sc_eureka_server/target/" />
+    <ignored path="$PROJECT_DIR$/sc_eureka_provider/target/" />
+    <ignored path="$PROJECT_DIR$/sc_eureka_consumer/target/" />
+    <ignored path="$PROJECT_DIR$/sc_eureka_consume2/target/" />
+    <ignored path="$PROJECT_DIR$/sc_pojo/target/" />
+    <ignored path="$PROJECT_DIR$/sc_eureka_feign_hystrix/target/" />
+    <ignored path="$PROJECT_DIR$/sc_eureka_server2/target/" />
+    <ignored path="$PROJECT_DIR$/sc_eureka_ribbon_hystrix/target/" />
+    <ignored path="$PROJECT_DIR$/sc_eureka_zuul/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sc_eureka_zuul/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sc_eureka_zuul/src/main/java/com/xa/sc_eureka_zuul/ScEurekaZuulApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Mapper" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>com.xa.sc_eureka_provider.pojo.UserInfo</find>
+      <find>locahost</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="springboot_sc_eureka" />
+        <option value="JLsoon" />
+      </list>
+    </option>
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="23ebaa51-a55f-4b98-b314-5129260a38f9" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/sc_eureka_server/src/main/java/com/xa/sc_eureka_server/ScEurekaServerApplication.java" />
+        <option value="$PROJECT_DIR$/sc_eureka_consumer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/sc_eureka_consumer/src/main/java/com/xa/sc_eureka_consumer/ScEurekaConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/sc_eureka_consumer/src/main/java/com/xa/sc_eureka_consumer/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/sc_eureka_consume2/src/main/java/com/xa/sc_eureka_consume2/ScEurekaConsume2Application.java" />
+        <option value="$PROJECT_DIR$/sc_eureka_consumer/src/main/java/com/xa/sc_eureka_consumer/service/RemoteService.java" />
+        <option value="$PROJECT_DIR$/sc_eureka_provider/src/main/java/com/xa/sc_eureka_provider/ScEurekaProviderApplication.java" />
+        <option value="$PROJECT_DIR$/sc_eureka_provider/src/main/java/com/xa/sc_eureka_provider/pojo/UserInfo.java" />
+        <option value="$PROJECT_DIR$/sc_pojo/src/main/java/com/xa/pojo/UserInfo.java" />
+        <option value="$PROJECT_DIR$/sc_pojo/pom.xml" />
+        <option value="$PROJECT_DIR$/sc_eureka_consume2/pom.xml" />
+        <option value="$PROJECT_DIR$/sc_eureka_provider/pom.xml" />
+        <option value="$PROJECT_DIR$/sc_eureka_provider/src/main/java/com/xa/sc_eureka_provider/service/impl/UserInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/sc_eureka_provider/src/main/java/com/xa/sc_eureka_provider/service/UserInfoService.java" />
+        <option value="$PROJECT_DIR$/sc_eureka_provider/src/main/java/com/xa/sc_eureka_provider/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/sc_eureka_provider/src/main/resources/mapper/UserInfoMapper.xml" />
+        <option value="$PROJECT_DIR$/sc_eureka_consume2/src/main/java/com/xa/sc_eureka_consume2/config/RibbonConfig.java" />
+        <option value="$PROJECT_DIR$/sc_eureka_consume2/src/main/java/com/xa/sc_eureka_consume2/service/RemoteService.java" />
+        <option value="$PROJECT_DIR$/sc_eureka_consume2/src/main/java/com/xa/sc_eureka_consume2/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/sc_eureka_consume2/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/sc_eureka_consume2/src/main/java/com/xa/sc_eureka_consume2/service/impl/RemoteServiceImpl.java" />
+        <option value="$PROJECT_DIR$/sc_eureka_feign_hystrix/src/main/java/com/xa/sc_eureka_feign_hystrix/service/HystrixService.java" />
+        <option value="$PROJECT_DIR$/sc_eureka_feign_hystrix/src/main/java/com/xa/sc_eureka_feign_hystrix/service/impl/HystrixRemoteServiceImpl.java" />
+        <option value="$PROJECT_DIR$/sc_eureka_feign_hystrix/src/main/java/com/xa/sc_eureka_feign_hystrix/service/HystrixRemoteService.java" />
+        <option value="$PROJECT_DIR$/sc_eureka_feign_hystrix/src/main/java/com/xa/sc_eureka_feign_hystrix/ScEurekaFeignHystrixApplication.java" />
+        <option value="$PROJECT_DIR$/sc_eureka_server2/src/main/java/com/xa/sc_eureka_server2/ScEurekaServer2Application.java" />
+        <option value="$PROJECT_DIR$/sc_eureka_server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/sc_eureka_ribbon_hystrix/src/main/java/com/xa/sc_eureka_ribbon_hystrix/config/RibbonConfig.java" />
+        <option value="$PROJECT_DIR$/sc_eureka_ribbon_hystrix/src/main/java/com/xa/sc_eureka_ribbon_hystrix/service/RibbonHystrixService.java" />
+        <option value="$PROJECT_DIR$/sc_eureka_ribbon_hystrix/src/main/java/com/xa/sc_eureka_ribbon_hystrix/controller/RibbonHystrixController.java" />
+        <option value="$PROJECT_DIR$/sc_eureka_ribbon_hystrix/src/main/java/com/xa/sc_eureka_ribbon_hystrix/ScEurekaRibbonHystrixApplication.java" />
+        <option value="$PROJECT_DIR$/sc_eureka_ribbon_hystrix/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/sc_eureka_ribbon_hystrix/src/main/java/com/xa/sc_eureka_ribbon_hystrix/service/impl/RibbonHystrixServiceImpl.java" />
+        <option value="$PROJECT_DIR$/sc_eureka_server2/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/sc_eureka_zuul/src/main/java/com/xa/sc_eureka_zuul/ScEurekaZuulApplication.java" />
+        <option value="$PROJECT_DIR$/sc_eureka_provider/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/sc_eureka_feign_hystrix/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/sc_eureka_feign_hystrix/src/main/java/com/xa/sc_eureka_feign_hystrix/controller/HystrixController.java" />
+        <option value="$PROJECT_DIR$/sc_eureka_provider/src/main/java/com/xa/sc_eureka_provider/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/sc_eureka_zuul/src/main/resources/application.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../maven/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="F:\Work\maven\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sc_eureka_consume2" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sc_eureka_consume2" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sc_eureka_consume2" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="com.xa:sc_eureka_provider:0.0.1-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sc_eureka_provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sc_eureka_provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sc_pojo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sc_pojo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="518" />
+    <option name="y" value="32" />
+    <option name="width" value="1400" />
+    <option name="height" value="1007" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556094426269" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xa.sc_eureka_ribbon_hystrix.config" />
+      <recent name="com.xa.pojo" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.2012987" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.ScEurekaConsume2Application">
+    <configuration name="ScEurekaConsume2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sc_eureka_consume2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xa.sc_eureka_consume2.ScEurekaConsume2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScEurekaConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sc_eureka_consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xa.sc_eureka_consumer.ScEurekaConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScEurekaFeignHystrixApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <module name="sc_eureka_feign_hystrix" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xa.sc_eureka_feign_hystrix.ScEurekaFeignHystrixApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScEurekaProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <module name="sc_eureka_provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xa.sc_eureka_provider.ScEurekaProviderApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScEurekaRibbonHystrixApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sc_eureka_ribbon_hystrix" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xa.sc_eureka_ribbon_hystrix.ScEurekaRibbonHystrixApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScEurekaServer2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sc_eureka_server2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xa.sc_eureka_server2.ScEurekaServer2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScEurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sc_eureka_server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xa.sc_eureka_server.ScEurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScEurekaZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sc_eureka_zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xa.sc_eureka_zuul.ScEurekaZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ScEurekaConsume2Application" />
+      <item itemvalue="Spring Boot.ScEurekaConsumerApplication" />
+      <item itemvalue="Spring Boot.ScEurekaFeignHystrixApplication" />
+      <item itemvalue="Spring Boot.ScEurekaProviderApplication" />
+      <item itemvalue="Spring Boot.ScEurekaRibbonHystrixApplication" />
+      <item itemvalue="Spring Boot.ScEurekaServer2Application" />
+      <item itemvalue="Spring Boot.ScEurekaServerApplication" />
+      <item itemvalue="Spring Boot.ScEurekaZuulApplication" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\JLsoon\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa8bb889-cc8f-4e6c-aa0b-5fe3d78217f0" name="Default Changelist" comment="" />
+      <created>1555901389834</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555901389834</updated>
+      <workItem from="1555901396412" duration="9511000" />
+      <workItem from="1555921703269" duration="29033000" />
+      <workItem from="1556010275207" duration="4385000" />
+      <workItem from="1556085231649" duration="1194000" />
+      <workItem from="1556091951868" duration="1494000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="45617000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18336888" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32951945" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.34924078" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.29609543" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32985073" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="springboot_sc_eureka" />
+    <option name="LAST_COMMIT_MESSAGE" value="springboot_sc_eureka" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="38" column="16" lean-forward="true" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc_eureka_consumer/src/main/java/com/xa/sc_eureka_consumer/controller/JLsoon.java" />
+    <entry file="file://$PROJECT_DIR$/sc_eureka_consumer/src/main/java/com/xa/sc_eureka_consumer/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc_eureka_consume2/src/main/java/com/xa/sc_eureka_consume2/ScEurekaConsume2Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk1.8/src.zip!/java/net/AbstractPlainSocketImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="183" selection-start-line="183" selection-end-line="183" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc_eureka_provider/src/main/resources/mapper/xml.xml" />
+    <entry file="file://$PROJECT_DIR$/sc_pojo/src/main/java/com/xa/App.java" />
+    <entry file="file://$PROJECT_DIR$/sc_pojo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc_eureka_provider/src/main/java/com/xa/sc_eureka_provider/pojo/UserInfo.java" />
+    <entry file="file://$PROJECT_DIR$/sc_eureka_consume2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc_eureka_provider/src/main/java/com/xa/sc_eureka_provider/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc_eureka_provider/src/main/resources/mapper/UserInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc_eureka_provider/src/main/java/com/xa/sc_eureka_provider/service/UserInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc_pojo/src/main/java/com/xa/pojo/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc_eureka_provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="46" column="64" lean-forward="true" selection-start-line="46" selection-start-column="64" selection-end-line="46" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.6.RELEASE/spring-web-5.1.6.RELEASE.jar!/org/springframework/web/client/RestTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="182" column="63" selection-start-line="182" selection-start-column="51" selection-end-line="182" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc_eureka_consume2/src/main/java/com/xa/sc_eureka_consume2/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="29" column="56" lean-forward="true" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#970#971#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc_eureka_consume2/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="61" lean-forward="true" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc_eureka_consumer/src/main/java/com/xa/sc_eureka_consumer/service/RemoteService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="38" lean-forward="true" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc_eureka_consumer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.1.1.RELEASE/spring-cloud-openfeign-core-2.1.1.RELEASE.jar!/org/springframework/cloud/openfeign/FeignClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-465">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc_eureka_server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="24" column="66" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc_eureka_consume2/src/main/java/com/xa/sc_eureka_consume2/config/RibbonConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc_eureka_consume2/src/main/java/com/xa/sc_eureka_consume2/service/RemoteService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc_eureka_consume2/src/main/java/com/xa/sc_eureka_consume2/service/impl/RemoteServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc_eureka_ribbon_hystrix/src/main/java/com/xa/sc_eureka_ribbon_hystrix/config/RibbonConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc_eureka_ribbon_hystrix/src/main/java/com/xa/sc_eureka_ribbon_hystrix/controller/RibbonHystrixController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc_eureka_ribbon_hystrix/src/main/java/com/xa/sc_eureka_ribbon_hystrix/service/RibbonHystrixService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc_eureka_ribbon_hystrix/src/main/java/com/xa/sc_eureka_ribbon_hystrix/service/impl/RibbonHystrixServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="50" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc_eureka_server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc_eureka_ribbon_hystrix/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc_eureka_provider/src/main/java/com/xa/sc_eureka_provider/service/impl/UserInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc_eureka_provider/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc_eureka_feign_hystrix/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc_eureka_feign_hystrix/src/main/java/com/xa/sc_eureka_feign_hystrix/controller/HystrixController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc_eureka_ribbon_hystrix/src/main/java/com/xa/sc_eureka_ribbon_hystrix/ScEurekaRibbonHystrixApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc_eureka_consumer/src/main/java/com/xa/sc_eureka_consumer/ScEurekaConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc_eureka_feign_hystrix/src/main/java/com/xa/sc_eureka_feign_hystrix/ScEurekaFeignHystrixApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc_eureka_provider/src/main/java/com/xa/sc_eureka_provider/ScEurekaProviderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc_eureka_feign_hystrix/src/main/java/com/xa/sc_eureka_feign_hystrix/service/impl/HystrixRemoteServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc_eureka_feign_hystrix/src/main/java/com/xa/sc_eureka_feign_hystrix/service/HystrixRemoteService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc_eureka_server/src/main/java/com/xa/sc_eureka_server/ScEurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc_eureka_server2/src/main/java/com/xa/sc_eureka_server2/ScEurekaServer2Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc_eureka_server2/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk1.8/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="136" column="22" selection-start-line="136" selection-start-column="22" selection-end-line="136" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc_eureka_provider/src/main/java/com/xa/sc_eureka_provider/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="23" column="51" lean-forward="true" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc_eureka_zuul/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc_eureka_zuul/src/main/java/com/xa/sc_eureka_zuul/ScEurekaZuulApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
